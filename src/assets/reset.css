@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+span {
+    user-select: none;
+}
+
+::selection {
+    background-color: #ff4d4f !important;
+}   
